@@ -18,6 +18,6 @@ namespace API.Movies.Services.IServices
         Task<bool> UpdateCategoryAsync(Category category);
 
         Task<bool> DeleteCategoryAsync(int id);
-
+        Task CreateCategoryAsync(CategoryCreateDto categoryCreateDto);
     }
 }
